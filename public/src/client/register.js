@@ -136,7 +136,7 @@ define('forum/register', [
 					showSuccess(usernameInput, username_notify, successIcon);
 				} else {
 					const suggestion = `${username}suffix`;
-					showError(usernameInput, username_notify, `Username taken. Maybe try "${suggestion}".` );
+					showError(usernameInput, username_notify, `Username taken. Maybe try "${suggestion}".`);
 				}
 
 				callback();
